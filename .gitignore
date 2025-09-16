@@ -1,0 +1,23 @@
+# Rust build files
+/target/
+**/*.rs.bk
+
+# Executable files
+/phoenix-dr-tool
+/phoenix-dr-tool.exe
+
+# Don't upload the release folder we created
+/release/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Don't upload large test files
+*.img
+test_data.bin
+recovered_*/target
